@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <section class="header-page">
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo-img" />
+        </div>
+        <div class="hamburger-menu" id="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav
+          class="header-menu animate__slideInRight animate__animated"
+          id="headerMenu"
+        >
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <div class="contact-bg font-fraunces">
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <!-- <div class="header-menu"></div> -->
+      <div class="intro-text font-fraunces flex-cl-jc">
+        <h1>We are creatives</h1>
+        <div class="arrow">
+          <img src="images/icon-arrow-down.svg" alt="arrow-icon" />
+        </div>
+      </div>
+    </section>
+    <section class="transform-brand-section" id="about">
+      <div class="transform-brand flex">
+        <div class="transform-brand-text text-content">
+          <h1 class="font-fraunces">Transform your brand</h1>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <p class="yellow-text">Learn more</p>
+        </div>
+        <div class="transform-brand-img resize">
+          <img src="images/desktop/image-transform.jpg" alt="trasform-img" />
+        </div>
+      </div>
+    </section>
+    <section class="stand-out-section">
+      <div class="stand-out flex">
+        <div class="stand-out-img resize">
+          <img src="images/desktop/image-stand-out.jpg" alt="stand-out-img" />
+        </div>
+        <div class="stand-out-text text-content">
+          <h1 class="font-fraunces">Stand out to the right audience</h1>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <p class="red-text">Learn more</p>
+        </div>
+      </div>
+    </section>
+    <section class="photography-graphic-section flex" id="services">
+      <div class="graphic-design margin flex-cl-jc">
+        <h1 class="font-fraunces">Graphic design</h1>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="photography margin flex-cl-jc">
+        <h1 class="font-fraunces">Photography</h1>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <h1 class="font-fraunces">Client testimonials</h1>
+      <div class="client-testimonials flex">
+        <div class="client-all client-emily flex-cl-jc">
+          <div class="prof-img">
+            <img src="images/image-emily.jpg" alt="img-emily" />
+          </div>
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <div>
+            <h4 class="font-fraunces">Emily R.</h4>
+            <p class="light-text">Marketing Director</p>
+          </div>
+        </div>
+        <div class="client-all client-thomas flex-cl-jc">
+          <div class="prof-img">
+            <img src="images/image-thomas.jpg" alt="img-thomas" />
+          </div>
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div>
+            <h4 class="font-fraunces">Thomas S.</h4>
+            <p class="light-text">Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="client-all client-jennie flex-cl-jc">
+          <div class="prof-img">
+            <img src="images/image-jennie.jpg" alt="img-jennie" />
+          </div>
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <div>
+            <h4 class="font-fraunces">Jennie F.</h4>
+            <p class="light-text">Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="random flex" id="projects">
+      <div class="refix-img">
+        <img
+          src="images/desktop/image-gallery-milkbottles.jpg"
+          alt="milk-img"
+        />
+      </div>
+      <div class="refix-img">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="orange-img" />
+      </div>
+      <div class="refix-img">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="cone-img" />
+      </div>
+      <div class="refix-img">
+        <img
+          src="images/desktop/image-gallery-sugarcubes.jpg"
+          alt="sugarcubes-img"
+        />
+      </div>
+    </section>
+    <section class="footer-section flex-cl-jc" id="contact">
+      <div class="logo-footer">
+        <img src="images/logo.svg" alt="" />
+      </div>
+      <nav class="footer-nav flex">
+        <a href="#about">About</a>
+        <a href="#services">Service</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <div class="social-icons flex">
+        <img src="images/icon-facebook.svg" alt="icon-facebook" />
+        <img src="images/icon-instagram.svg" alt="icon-instagram" />
+        <img src="images/icon-twitter.svg" alt="icon-twitter" />
+        <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a
+        rel="noopener"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">HELEN DEE</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
