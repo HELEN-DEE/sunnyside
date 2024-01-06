@@ -51,7 +51,6 @@ nav {
     padding: 2rem 0;
     text-decoration-style: none;
     justify-content: end;
-    
 }
 a{
     text-decoration: none;
@@ -61,7 +60,7 @@ a:hover{
     background-color: rgba(255, 255, 255, 0.311);
     padding: 5px 10px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .contact-bg a {
@@ -263,15 +262,20 @@ a:hover{
 .footer-nav a {
     color:  var(--Dark-desaturated-cyan-graphic-design-text);
 }
-.logo-footer img {
-    fill: var(--Dark-desaturated-cyan-graphic-design-text);
+.footer-nav a:hover {
+    font-size: 16px;
+}
+.footer-nav {
+    gap: 5rem;
+}
+.logo-footer img{
+    width: 10rem;
 }
 .social-icons {
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
 }
-
 
 .attribution {
     font-size: 14px;
