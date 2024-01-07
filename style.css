@@ -344,7 +344,7 @@ a:hover{
         color: hsl(210, 100%, 71%);
     
     }
-    .header-menu:hover {
+    a:hover {
         background-color: hsl(210, 100%, 71%);
         color: white;
         padding: 10px 12px;
